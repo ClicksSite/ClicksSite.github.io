@@ -52,7 +52,7 @@
   }
 @keyframes fadeOut {
     0% { opacity: 1;}
-    100% { opacity: 0; visibility: hidden; }
+    1% { opacity: 0; }
 } 
 #homeBtn{
     background-color: rgb(240, 240, 240);
