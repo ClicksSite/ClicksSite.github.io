@@ -26,10 +26,19 @@
     <script>
     let mybutton = document.getElementById("bttnTop");
 
-    window.onscroll = function() {mybutton.style.display = "block"};
+    window.onscroll = function() {scrollFunction()};
 
-    function topFunction() {
-    document.documentElement.scrollTop = 0;
+        function scrollFunction() {
+        if (document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            mybutton.style.animation = "fadeIn 1s";
+        } else {
+            mybutton.style.animation = "fadeOut 1s";
+        }
+    }
+
+        function topFunction() {
+        document.documentElement.scrollTop = 0;
     }
     </script>
 

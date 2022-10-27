@@ -37,13 +37,23 @@
     border-radius: 100%;
 }
 #bttnTop {
+    display: none;
     bottom: 100px;
     right: 30px;
     outline: none;
     z-index: 99;
     cursor: pointer;
     padding: none;
+    animation: none;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+@keyframes fadeOut {
+    0% { opacity: 1;}
+    100% { opacity: 0; visibility: hidden; }
+} 
 #homeBtn{
     background-color: rgb(240, 240, 240);
     bottom: 30px;
@@ -118,8 +128,6 @@ body{
 }
 
 .imgcontent{
-    background-color: rgba(224, 224, 203, 0.904); 
-    border: 10px double rgb(109, 42, 11);
     margin: 40px 80px;
     padding: 20px;
     padding-bottom: 0px;
@@ -132,7 +140,7 @@ body{
     height: 350px;
     max-width: 100%;
     width: 49.2%;
-    border:  rgba(179, 111, 243, 0.829) 2px solid;
+    border-radius: 5%;
     margin-bottom: 20px;
 }
 .btn1{
