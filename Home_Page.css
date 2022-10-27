@@ -1,0 +1,77 @@
+.TitleBar{
+    background-color: rgb(95 , 80, 137);
+    height: 150px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+.Logo{
+    width: 160px;
+    height: 160px;
+}
+.Title{
+    text-align: center;
+    font-family: 'Maven-pro', sans-serif;
+    color: white;
+    font-size: 100px;
+    margin-right: 50px;
+}
+body{
+    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+    background-size: cover;
+}
+.Categories{
+    position: relative;
+    align-items: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.ctgryTitle{
+    font-size: 40px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin-top: 15px;
+}
+.travel, .sports, .foods{
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    height: 400px;
+    width: 80%;
+    border: 5px solid black;
+    transition: transform .1s;
+}
+.travel:hover, .sports:hover, .foods:hover{
+    opacity: 70%;
+    transform: scale(1.02);
+}
+.ctgryBG{
+    opacity: 50%;
+    height: 100%;
+    width: 100%;
+}
+.trvlLogo, .sprtsLogo, .fdsLogo{
+    position:absolute;
+    height: 75%;
+    width: 44%;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.sprtsLogo{
+    height: 60%;
+    width: 40%;
+}
+.fdsLogo{
+    height: 60%;
+    width: 25%;
+}
+.ctgryTXT{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+    letter-spacing: 6px;
+    font-size: 500%;
+    position:absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}

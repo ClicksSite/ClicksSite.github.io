@@ -1,0 +1,176 @@
+/*Title*/
+.TitleBar{
+    position: relative;
+    background-color: rgb(95 , 80, 137);
+    height: 80px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+.Title{
+    text-align: center;
+    font-family: 'Maven-pro', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-top: .6rem;
+    letter-spacing: 2px;
+}
+/*
+.Logo{
+    width: 160px;
+    height: 160px;
+}
+.titleHome{
+    position: absolute;
+    height: 30%;
+    max-width: 100%;
+    width: 4%;
+    bottom: 10px;
+    right: 3%;
+}
+*/
+
+#bttnTop, #homeBtn{
+    position: fixed;
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+#bttnTop {
+    bottom: 100px;
+    right: 30px;
+    outline: none;
+    z-index: 99;
+    cursor: pointer;
+    padding: none;
+}
+#homeBtn{
+    background-color: rgb(240, 240, 240);
+    bottom: 30px;
+    right: 30px;
+}
+#bttnTopimg{
+    max-width: 100%;
+    width: 100%;
+}
+#homeBtnimg{
+    position: relative;
+    max-width: 100%;
+    width: 90%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Body*/
+body{
+    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+    background-size: cover;
+}  
+/*Whole Accordion in "More Categories Here"*/
+.accBG{
+    background-color: rgba(179, 111, 243, 0.829);
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+.accordion-item{
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+#bttnBG{
+    background-image: url(/Clicks/images/TrvlCntntPage/trvlAccBG.png);
+    background-size: cover;
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.flexcolumn{
+    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+    display: flex;
+    flex-direction: column;
+}
+.flexrow, .contentrow{
+    display: flex;
+    flex-direction: row;
+}
+.bgrow1{
+    margin: 30px 0px 0px 30px;
+}
+.bgrow2{
+    margin: 30px auto 0px auto;
+}
+.bgrow3{
+    margin: 30px 0px 0px 0px;
+}
+.rowbg{
+    border: 2px solid black;
+    height: 200px;
+    width: 90%;
+    border-radius: 50px;
+}
+.rowbg:hover{
+    opacity: 50% ;
+}
+#flexrowbottom{
+    margin-bottom: 30px;
+}
+
+.imgcontent{
+    background-color: rgba(224, 224, 203, 0.904); 
+    border: 10px double rgb(109, 42, 11);
+    margin: 40px 80px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.contentrow{
+    display: flex;
+    flex-direction: row;
+}
+.btn1, .btn2{
+    height: 350px;
+    max-width: 100%;
+    width: 49.2%;
+    border:  rgba(179, 111, 243, 0.829) 2px solid;
+    margin-bottom: 20px;
+}
+.btn1{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.btn2{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.offcanvas-start{
+    width: 50%;
+}
+.offcanvas-header{
+    background-color: rgb(95 , 80, 137);
+}
+h5.offcanvas-title{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.offcanvas-body{
+    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+}
+.offimg{
+    max-width: 100%; 
+    width: 100%;
+    border: 1px solid black;
+}
+.dnldbtn{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    letter-spacing: 2px;
+}

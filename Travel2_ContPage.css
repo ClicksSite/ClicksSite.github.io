@@ -1,0 +1,113 @@
+/*Title*/
+.TitleBar{
+    position: relative;
+    background-color: rgb(95 , 80, 137);
+    height: 80px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+.Title{
+    text-align: center;
+    font-family: 'Maven-pro', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-top: .6rem;
+    letter-spacing: 2px;
+}
+
+#bttnTop, #homeBtn, #backBtn{
+    background-color: rgb(240, 240, 240);
+    right: 30px;
+    position: fixed;
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+#bttnTop {
+    background-color: none;
+    bottom: 170px;
+    outline: none;
+    z-index: 99;
+    cursor: pointer;
+    padding: none;
+}
+#homeBtn{ bottom: 100px; }
+#backBtn{ bottom: 30px; }
+
+#bttnTopimg{
+    max-width: 100%;
+    width: 100%;
+}
+#homeBtnimg, #backBtnimg{
+    position: relative;
+    max-width: 100%;
+    width: 80%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Body*/
+body{
+    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+    background-size: cover;
+}  
+
+.imgcontent{
+    background-color: rgba(224, 224, 203, 0.904); 
+    border: 10px double rgb(109, 42, 11);
+    margin: 40px 80px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.contentrow{
+    display: flex;
+    flex-direction: row;
+}
+.btn1, .btn2{
+    height: 350px;
+    max-width: 100%;
+    width: 49.2%;
+    border:  rgba(179, 111, 243, 0.829) 2px solid;
+    margin-bottom: 20px;
+}
+.btn1{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.btn2{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.offcanvas-start{
+    width: 50%;
+}
+.offcanvas-header{
+    background-color: rgb(95 , 80, 137);
+}
+h5.offcanvas-title{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.offcanvas-body{
+    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+}
+.offimg{
+    max-width: 100%; 
+    width: 100%;
+    border: 1px solid black;
+}
+.dnldbtn{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    letter-spacing: 2px;
+}
