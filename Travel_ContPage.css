@@ -64,7 +64,7 @@
 
 /*Body*/
 body{
-    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+    background-image: url(images/HomePage/WhiteBG.jpg);
     background-size: cover;
 }  
 /*Whole Accordion in "More Categories Here"*/
@@ -79,7 +79,7 @@ body{
     border: 1px solid black;
 }
 #bttnBG{
-    background-image: url(/Clicks/images/TrvlCntntPage/trvlAccBG.png);
+    background-image: url(images/TrvlCntntPage/trvlAccBG.png);
     background-size: cover;
     color: white;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -87,7 +87,7 @@ body{
     letter-spacing: 3px;
 }
 .flexcolumn{
-    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+    background-image: url(images/HomePage/WhiteBG.jpg);
     display: flex;
     flex-direction: column;
 }
@@ -156,7 +156,7 @@ h5.offcanvas-title{
     color: white;
 }
 .offcanvas-body{
-    background-image: url(/Clicks/images/HomePage/WhiteBG.jpg);
+    background-image: url(images/HomePage/WhiteBG.jpg);
 }
 .offimg{
     max-width: 100%; 
