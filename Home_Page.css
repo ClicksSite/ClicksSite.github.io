@@ -19,6 +19,24 @@ body{
     background-image: url(images/HomePage/WhiteBG.jpg);
     background-size: cover;
 }
+#homeBtn{
+    background-color: rgb(240, 240, 240);
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+#homeBtnimg{
+    position: relative;
+    max-width: 100%;
+    width: 90%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .Categories{
     position: relative;
     align-items: center;
@@ -40,11 +58,11 @@ body{
     transition: transform .1s;
 }
 .travel:hover, .sports:hover, .foods:hover{
-    opacity: 70%;
+    opacity: 59%;
     transform: scale(1.02);
 }
 #ctgryBG{
-    opacity: 80%;
+    opacity: 60%;
     border: 1px solid black;
     border-radius: 2%;
     height: 100%;
