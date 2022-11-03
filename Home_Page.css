@@ -93,7 +93,8 @@ body{
     width: 100%;
     border-radius: 1%;
 }
-.trvlLogo, .sprtsLogo, .fdsLogo{
+.ctgrylogo{
+    max-width: 100%;
     position:absolute;
     height: 75%;
     width: 44%;
@@ -101,11 +102,11 @@ body{
     left: 25%;
     transform: translate(-50%, -50%);
 }
-.sprtsLogo{
+#sprtsLogo, #plntLogo{
     height: 60%;
-    width: 40%;
+    width: 35%;
 }
-.fdsLogo{
+#fdsLogo, #fshnLogo, #mscLogo{
     height: 60%;
     width: 25%;
 }

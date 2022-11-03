@@ -14,22 +14,8 @@
     padding-top: .6rem;
     letter-spacing: 2px;
 }
-/*
-.Logo{
-    width: 160px;
-    height: 160px;
-}
-.titleHome{
-    position: absolute;
-    height: 30%;
-    max-width: 100%;
-    width: 4%;
-    bottom: 10px;
-    right: 3%;
-}
-*/
 
-#bttnTop, #homeBtn{
+#bttnTop, #homeBtn, #backBtn{
     background-color: rgb(95 , 80, 137);
     position: fixed;
     height: 4rem;
@@ -37,7 +23,7 @@
     border: 1px solid black;
     border-radius: 10% 0% 0% 10%;
     display: none;
-    bottom: 110px;
+    bottom: 190px;
     right: 0px;
     outline: none;
     z-index: 99;
@@ -46,14 +32,18 @@
     animation: none;
 }
 #homeBtn{
+    bottom: 110px;
+    display: block;
+}
+#backBtn{
     bottom: 30px;
     display: block;
 }
-#bttnTopimg, #homeBtnimg{
+#bttnTopimg, #homeBtnimg, #backBtnimg{
     max-width: 100%;
     max-height: 100%;
 }
-#homeBtnimg{
+#homeBtnimg, #backBtnimg{
     position: relative;
     top: 50%;
     left: 50%;
@@ -74,56 +64,6 @@ body{
     background-image: url(images/HomePage/WhiteBG.jpg);
     background-size: cover;
 }  
-/*Whole Accordion in "More Categories Here"*/
-.accBG{
-    background-color: #b36ff3d3;
-    padding: 10px;
-    border-bottom: 1px dashed black;
-}
-.accordion-item{
-    width: 80%;
-    margin: 30px auto;
-    border: 1px solid black;
-}
-#bttnBG{
-    background-image: url(images/TrvlCntntPage/trvlAccBG.png);
-    background-size: cover;
-    color: white;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 30px;
-    letter-spacing: 3px;
-}
-.flexcolumn{
-    background-image: url(images/HomePage/WhiteBG.jpg);
-    display: flex;
-    flex-direction: column;
-}
-.flexrow, .contentrow{
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 auto;
-}
-.bgrow1{
-    margin: 30px 0px 0px 30px;
-}
-.bgrow2{
-    margin: 30px auto 0px auto;
-}
-.bgrow3{
-    margin: 30px 0px 0px 0px;
-}
-.rowbg{
-    border: 2px solid black;
-    height: 200px;
-    width: 90%;
-    border-radius: 50px;
-}
-.rowbg:hover{
-    opacity: 50% ;
-}
-#flexrowbottom{
-    margin-bottom: 30px;
-}
 
 .imgcontent{
     margin: 40px 80px;

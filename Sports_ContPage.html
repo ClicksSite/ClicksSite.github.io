@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLICKS - Sports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="Sports_ContPage.css">
+
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro:wght@500&family=Montserrat+Alternates:wght@500&family=Pathway+Gothic+One&family=Righteous&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+    <button onclick="topFunction()" id="bttnTop">
+        <img id="bttnTopimg" src="images/TrvlCntntPage/uparrow.png">
+    </button>
+
+    <script>
+    let mybutton = document.getElementById("bttnTop");
+
+    window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            mybutton.style.animation = "fadeIn 1s";
+        } else {
+            mybutton.style.animation = "fadeOut 100s";
+        } 
+    }
+
+        function topFunction() {
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+    <a id="homeBtn" href="index.html">
+        <img id="homeBtnimg" src="images/TrvlCntntPage/home.png"> 
+    </a>
+
+    <div class="TitleBar">
+        <h1 class="Title"><!--<img class="Logo" src="images/HomePage/ClicksLogo.png">-->
+            CLICKS 
+        </h1>
+    </div>
+
+    <div class="accBG">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed"  id="bttnBG" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                More Categories Here!
+                </button>
+                </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="flexcolumn">
+                <div class="flexrow">
+                    <a class="bgrow1" href="Sports2_ContPage.html">
+                        <img class="rowbg" src="images/SprtsCntntPage/Javelin.png">
+                    </a>
+                    <a class="bgrow2" href="Sports2_ContPage.html">
+                        <img class="rowbg" src="images/SprtsCntntPage/Running.png">
+                    </a>
+                    <a class="bgrow3" href="Sports2_ContPage.html">
+                        <img class="rowbg" src="images/SprtsCntntPage/Basketball.png">
+                    </a>
+                </div>
+                <div class="flexrow">
+                    <a class="bgrow1" href="Sports2_ContPage.html">
+                        <img class="rowbg" src="images/SprtsCntntPage/Basketball.png">
+                    </a>
+                    <a class="bgrow2" href="Sports2_ContPage.html">
+                        <img class="rowbg" src="images/SprtsCntntPage/Javelin.png">
+                    </a>
+                    <a class="bgrow3" href="Sports2_ContPage.html">
+                        <img class="rowbg" src="images/SprtsCntntPage/Running.png">
+                    </a>
+                </div>
+                <div class="flexrow">
+                    <a class="bgrow1" href="Sports2_ContPage.html">
+                        <img class="rowbg" src="images/SprtsCntntPage/Running.png">
+                    </a>
+                    <a class="bgrow2" href="Sports2_ContPage.html">
+                        <img class="rowbg" src="images/SprtsCntntPage/Basketball.png">
+                    </a>
+                    <a class="bgrow3" href="Sports2_ContPage.html">
+                        <img class="rowbg" id="flexrowbottom" src="images/SprtsCntntPage/Javelin.png">
+                    </a>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="imgcontent">
+        <div class="contentrow">
+            <img src="images/SprtsCntntPage/Boxing.jpeg" class="btn1" type="button" data-bs-toggle="offcanvas" data-bs-target="#off1" aria-controls="offcanvasWithBothOptions">
+            <img src="images/SprtsCntntPage/Tennis.jpg" class="btn2" type="button" data-bs-toggle="offcanvas" data-bs-target="#off2" aria-controls="offcanvasWithBothOptions">
+        </div>
+        <div class="contentrow">
+            <img src="images/SprtsCntntPage/Football.jpg" class="btn1" type="button" data-bs-toggle="offcanvas" data-bs-target="#off3" aria-controls="offcanvasWithBothOptions">
+            <img src="images/SprtsCntntPage/Soccer.jpg" class="btn2" type="button" data-bs-toggle="offcanvas" data-bs-target="#off4" aria-controls="offcanvasWithBothOptions">
+        </div>
+        <div class="contentrow">
+            <img src="images/SprtsCntntPage/Running.jpg" class="btn1" type="button" data-bs-toggle="offcanvas" data-bs-target="#off6" aria-controls="offcanvasWithBothOptions">
+            <img src="images/SprtsCntntPage/Basketball2.jpg" class="btn2" type="button" data-bs-toggle="offcanvas" data-bs-target="#off7" aria-controls="offcanvasWithBothOptions">
+        </div>
+        <div class="contentrow">
+            <img src="images/SprtsCntntPage/Swimming.jpg" class="btn1" type="button" data-bs-toggle="offcanvas" data-bs-target="#off8" aria-controls="offcanvasWithBothOptions">
+            <img src="images/SprtsCntntPage/Boxing.jpeg" class="btn2" type="button" data-bs-toggle="offcanvas" data-bs-target="#off1" aria-controls="offcanvasWithBothOptions">
+        </div>
+    </div>
+    
+    
+    <!-- Targetting of off-canvas -->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="off1" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 40%;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Boxing</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img class = "offimg" src="images/SprtsCntntPage/Boxing.jpeg" >
+        <div>
+            <br><a class="dnldbtn" href="images/SprtsCntntPage/Boxing.jpeg" download>Download</a>
+            <hr>by: Enryk Golez<br>Dimensions: 566 x 577
+        </div>
+    </div>
+    
+    </div>
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="off2" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 40%;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Tennis</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img class = "offimg" src="images/SprtsCntntPage/Tennis.jpg">
+        <div>
+            <br><a class="dnldbtn" href="images/SprtsCntntPage/Tennis.jpg" download>Download</a>
+            <hr>by: Enryk Golez<br>Dimensions: 1000 x 614
+        </div>
+    </div>
+    </div>
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="off3" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 40%;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Football</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img class = "offimg" src="images/SprtsCntntPage/Football.jpg">
+        <div>
+            <br><a class="dnldbtn" href="images/SprtsCntntPage/Football.jpg" download>Download</a>
+            <hr>by: Enryk Golez<br>Dimensions: 893 x 893
+        </div>
+    </div>
+    </div>
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="off5" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 40%;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Boracay_Beach</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img class = "offimg" src="images/TrvlCntntPage/Boracay_Beach.jpg">
+        <div>
+            <br><a class="dnldbtn" href="images/TrvlCntntPage/Boracay_Beach.jpg" download>Download</a>
+            <hr>Photo taken by: Diandre Dawson B. Gomez<br>Dimensions: 3060 x 4080
+        </div>
+    </div>
+    </div>
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="off4" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 40%;">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Soccer</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <img class = "offimg" src="images/SprtsCntntPage/Soccer.jpg">
+            <div>
+                <br><a class="dnldbtn" href="images/SprtsCntntPage/Soccer.jpg" download>Download</a>
+                <hr>by: Enryk Golez<br>Dimensions: 893 x 893
+            </div>
+        </div>
+        </div>
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="off6" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 40%;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Running</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img class = "offimg" src="images/SprtsCntntPage/Running.jpg">
+        <div>
+            <br><a class="dnldbtn" href="images/SprtsCntntPage/Running.jpg" download>Download</a>
+            <hr>by: Enryk Golez<br>Dimensions: 893 x 893
+        </div>
+    </div>
+    </div>
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="off7" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 40%;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Basketball2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img class = "offimg" src="images/SprtsCntntPage/Basketball2.jpg">
+        <div>
+            <br><a class="dnldbtn" href="images/SprtsCntntPage/Basketball2.jpg" download>Download</a>
+            <hr>by: Enryk Golez<br>Dimensions: 893 x 893
+        </div>
+    </div>
+    </div>
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="off8" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 40%;">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Swimming</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <img class = "offimg" src="images/SprtsCntntPage/Swimming.jpg">
+            <div>
+                <br><a class="dnldbtn" href="images/SprtsCntntPage/Swimming.jpg" download>Download</a>
+                <hr>by: Enryk Golez<br>Dimensions: 893 x 893
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
