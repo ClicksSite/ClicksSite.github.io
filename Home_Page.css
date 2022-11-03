@@ -5,8 +5,8 @@
     border-bottom: 3px solid black;
 }
 .Logo{
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
 }
 .Title{
     text-align: center;
@@ -19,25 +19,47 @@ body{
     background-image: url(images/HomePage/WhiteBG.jpg);
     background-size: cover;
 }
-#abtBtn{
-    background-color: rgb(240, 240, 240);
-    bottom: 30px;
-    right: 30px;
+
+#bttnTop, #abtBtn{
+    background-color: rgb(95 , 80, 137);
     position: fixed;
-    z-index: 1;
     height: 4rem;
-    width: 4rem;
+    width: 5.5rem;
     border: 1px solid black;
-    border-radius: 100%;
+    border-radius: 10% 0% 0% 10%;
+    display: none;
+    bottom: 110px;
+    right: 0px;
+    outline: none;
+    z-index: 99;
+    cursor: pointer;
+    padding: none;
+    animation: none;
+}
+#abtBtn{
+    bottom: 30px;
+    display: block;
+}
+#bttnTopimg, #abtBtnimg{
+    max-width: 100%;
+    max-height: 100%;
 }
 #abtBtnimg{
     position: relative;
-    max-width: 100%;
-    width: 90%;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: 85%;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+@keyframes fadeOut {
+    0% { opacity: 1;}
+    1% { opacity: 0; }
+} 
+
 .Categories{
     position: relative;
     align-items: center;
@@ -48,26 +70,28 @@ body{
 .ctgryTitle{
     font-size: 40px;
     font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
     margin-top: 15px;
 }
-.travel, .sports, .foods{
+.ctgrs{
     position: relative;
     display: block;
     margin: 20px auto;
     height: 400px;
     width: 80%;
     transition: transform .1s;
+    border: 2px solid black;
+    border-radius: 2%;
 }
-.travel:hover, .sports:hover, .foods:hover{
+.ctgrs:hover{
     opacity: 59%;
     transform: scale(1.02);
 }
 #ctgryBG{
     opacity: 60%;
-    border: 1px solid black;
-    border-radius: 2%;
     height: 100%;
     width: 100%;
+    border-radius: 1%;
 }
 .trvlLogo, .sprtsLogo, .fdsLogo{
     position:absolute;
@@ -95,3 +119,20 @@ body{
     left: 70%;
     transform: translate(-50%, -50%);
 }
+
+
+#searchbar{
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+     width: 70%;
+  }
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 90px;
+  }
